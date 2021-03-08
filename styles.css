@@ -1,0 +1,21 @@
+body {
+    background-color: lightcyan;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+  
+#nav-bar {
+    display: flex;
+}
+  
+section, footer {
+    width: 35vw;
+    text-align: center;
+    margin: auto;
+}
