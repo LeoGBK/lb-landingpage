@@ -9,9 +9,9 @@ body {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 5% 5% 10% 5%;
+    padding: 3%;
   }
-  
+
   #nav-bar p {
     display: inline-block;
     padding-inline: 5vw;
@@ -30,3 +30,11 @@ body {
     text-align: center;
     margin: auto;
   }
+
+  section {
+    padding: 10%;
+  }
+
+h1, h2 {
+  color: #ee5253;
+}
