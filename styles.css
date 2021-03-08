@@ -5,13 +5,13 @@ body {
     max-width: 100%;
     margin: auto;
   }
-  
+    
   header {
     display: flex;
     justify-content: space-between;
     padding: 3%;
   }
-
+  
   #nav-bar p {
     display: inline-block;
     padding-inline: 5vw;
@@ -19,22 +19,27 @@ body {
     font-weight: bold;
     font-size: 20px;
   }
-  
+    
   #nav-bar a {
     text-decoration: none;
     color: midnightblue;
   }
-  
-  section, footer {
+    
+  section, footer, div {
     width: 35vw;
     text-align: center;
     margin: auto;
   }
-
+  
   section {
     padding: 10%;
   }
-
-h1, h2 {
-  color: #ee5253;
-}
+  
+  div {
+    padding-top: 0%;
+    padding-botton: 3%;
+  }
+  
+  h1, h2 {
+    color: #ee5253;
+  }
