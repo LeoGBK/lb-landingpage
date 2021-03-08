@@ -3,19 +3,30 @@ body {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 100%;
-}
-
-header {
+    margin: auto;
+  }
+  
+  header {
     display: flex;
     justify-content: space-between;
-}
+    padding: 5% 5% 10% 5%;
+  }
   
-#nav-bar {
-    display: flex;
-}
+  #nav-bar p {
+    display: inline-block;
+    padding-inline: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
   
-section, footer {
+  #nav-bar a {
+    text-decoration: none;
+    color: midnightblue;
+  }
+  
+  section, footer {
     width: 35vw;
     text-align: center;
     margin: auto;
-}
+  }
