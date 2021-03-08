@@ -47,4 +47,14 @@ div {
   
 h1, h2 {
     color: #ee5253;
-}
+  }
+  
+  #email, #submit {
+    font-size: 1.2vw;
+  }
+  
+  #submit:hover {
+    background-color: #ee5253;
+    color: white;
+    cursor: pointer;
+  }
