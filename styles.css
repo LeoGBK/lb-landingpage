@@ -7,11 +7,23 @@ body {
 }
     
 header {
-    display: flex;
+    overflow: hidden;
     justify-content: space-between;
-    padding: 3%;
+/* Setting the header (in which the navbar is included) to fixed position. */
+    position: fixed;
+    background-color: lightcyan;
+/* Header (in which the navbar is included) at the top of the page. */
+    top: 0;
+/* Full width */
+    width: 100%;
+/* Centering text */
+    text-align: center;
 }
-  
+
+#header-img {
+    padding: 5%
+}
+
 #nav-bar p {
     display: inline-block;
     padding-inline: 5vw;
@@ -25,19 +37,29 @@ header {
     color: midnightblue;
 }
 
+/* Color change when mouse pointer is over link menu */
+#nav-bar a:hover {
+    color: #f368e0;
+}
+
+/* Adding top margin to avoid content overlay */
+.parent-section {
+    margin-top: 15%;
+}
+
 main p {
     font-size: 1vw;
     font-weight: bold;
 } 
 
-section, footer, div {
+div, footer {
     width: 35vw;
     text-align: center;
     margin: auto;
 }
   
 section {
-    padding: 10%;
+    padding: 35% 0% 35% 0%;
 }
   
 div {
