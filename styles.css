@@ -66,6 +66,7 @@ section p {
     padding: 0% 5% 2% 5%;
 }
 
+/* Applying CSS flexbox to paragraphs of the first section (features)*/
 #features {
     display: flex;
     flex-direction: column;
@@ -80,12 +81,32 @@ h1, h2 {
     color: #ee5253;
   }
   
-  #email, #submit {
+#email, #submit {
     font-size: 1.2vw;
-  }
+}
   
-  #submit:hover {
+#submit:hover {
     background-color: #ee5253;
     color: white;
     cursor: pointer;
-  }
+}
+
+/* Applying Media Query to logo image */ 
+@media (max-width: 640px){
+    #header-img {
+      block-size: 10vw;
+    }
+}
+
+/* Applying Media Query to embedded video */
+@media (max-width: 640px){
+    div, footer {
+        width: 80vw;
+    }
+
+    #video {
+      /*block-size: 10vw;*/
+      height: auto%;
+      width: 100%;
+    }
+}
