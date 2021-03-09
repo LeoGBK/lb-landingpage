@@ -65,6 +65,11 @@ section {
 section p {
     padding: 0% 5% 2% 5%;
 }
+
+#features {
+    display: flex;
+    flex-direction: column;
+}
   
 div {
     padding-top: 0%;
